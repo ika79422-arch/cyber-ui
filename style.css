@@ -1,0 +1,33 @@
+body {
+  background: #0b0f1a;
+  color: #00ffcc;
+  font-family: 'Share Tech Mono', monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #00ffff;
+}
+
+.panel {
+  border: 2px solid #00ffcc;
+  padding: 20px 30px;
+  width: 320px;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 20px #00ffcc;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.ready {
+  color: #00ff00;
+  font-weight: bold;
+}
